@@ -1,0 +1,33 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest --forceExit",
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "argon2": "^0.30.1",
+    "axios": "^1.2.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "express-rate-limit": "^6.6.0",
+    "express-validator": "^6.14.2",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^2.3.3",
+    "node-esapi": "^0.0.1",
+    "queue": "^6.0.2",
+    "ssh2-sftp-client": "^9.0.4"
+  },
+  "devDependencies": {
+    "jest": "^29.3.1",
+    "nodemon": "^2.0.20",
+    "supertest": "^6.3.1"
+  }
+}
